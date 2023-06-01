@@ -1,0 +1,14 @@
+{
+  "name": "sv-lucia_web",
+  "version": "1.0.0",
+  "description": "WEbsite for company Sv. Lucia",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bruno Đidara",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^3.4.1"
+  }
+}
