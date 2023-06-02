@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../solar engineering website"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "sv-lucia_web"
+	}
+}

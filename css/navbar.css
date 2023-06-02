@@ -1,6 +1,6 @@
 /*TOP-BAR*/
 .top-bar {
-  background-color: #000000;
+  background-color: rgb(47, 110, 132);
   height: 30px;
   display: flex;
   justify-content: flex-start;
@@ -23,6 +23,10 @@
 }
 
 /*NAV-BAR*/
+
+.navbar{
+  background-color: rgba(255, 255, 255, 0.95)
+}
 #navbar_logo{
   width: 300px;
 }

@@ -32,10 +32,28 @@
     display: flex;   
     justify-content: center;
   }
-  .btn-container .btn {
-    height: 60px;
+  .btn-container .main-btn {
+    height: 100px;
     width: 220px;
     border-radius: 7px; /* Adjust the height as needed */
     font-size: 16px; /* Adjust the font size as needed */
     margin-top: 30px;
-  } 
+    margin-bottom: 30px;
+    background-color: rgb(47, 110, 132); /* Set the desired background color */
+    color: white;
+    outline: none;
+    border: none;
+    transition: transform 0.2s;
+  }
+  
+  .btn-container .main-btn:hover{
+    transform: scale(1.05);
+  }
+
+  .bi{
+    font-size: 30px;
+  }
+
+  #btn-text-container{
+    color: black;
+  }
