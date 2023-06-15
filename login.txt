@@ -1,3 +1,4 @@
 host: ftp.sv-lucia.com
 user: svluciac
 pass: G8M1KAu23f.jK#
+ssh pass: stN^_KMGacm4
