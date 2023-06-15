@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.css">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link rel="stylesheet" href="../css/gallery.css">
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <!--NAVBAR-->
+  <nav class="navbar navbar-expand-sm navbar-light  sticky-top">
+    
+    <span class="navbar-brand" href="index.html">
+      <a href="index.html"><img id="navbar_logo" src="../img/Sv_Lucia__Logo.png" alt=""></a>
+    </span>
+    
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#inside-hamburger" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse" id="inside-hamburger">
+    
+        <ul class="navbar-nav ml-auto">
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#" >Početna</a>
+            </li>
+            
+            <li class="nav-item dropdown">
+                
+              <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-expanded="false">Naše usluge</a>
+              
+              <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#prodaja.link">Prodaja</a>
+                  <a class="dropdown-item" href="drydock.html">Suhi vez za brodove</a>
+                  <a class="dropdown-item" href="#">Zimsko čuvanje kamp prikolica</a>
+                  <a class="dropdown-item" href="#">Održavanje brodova i servis</a>
+                  
+              </div>
+              
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#kontakt">O Nama</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html">Galerija</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#kontakt">Kontakt</a>
+            </li>
+            
+            
+        </ul>
+        
+    </div>
+  </nav>
+
+
+
+  <div class="container">
+    <div class="row">
+    <div class="gallery col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <h1 class="gallery-title">Galerija</h1>
+    </div>
+
+    <div align="center">
+        <button class="btn btn-default filter-button" data-filter="all">Sve</button>
+        <button class="btn btn-default filter-button" data-filter="hdpe">Čuvanje brodova</button>
+        <button class="btn btn-default filter-button" data-filter="sprinkle">Čuvanje kampera</button>
+        <button class="btn btn-default filter-button" data-filter="spray">Razno</button>
+        <button class="btn btn-default filter-button" data-filter="irrigation">Irrigation Pipes</button>
+    </div>
+    <br/>
+
+
+
+        <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
+            <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+        </div>
+
+        <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
+            <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+        </div>
+
+        <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
+            <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+        </div>
+
+        <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation">
+            <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+        </div>
+
+        <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray">
+            <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+        </div>
+
+        <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation">
+            <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+        </div>
+
+        <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray">
+            <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+        </div>
+
+        <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation">
+            <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+        </div>
+
+        <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter irrigation">
+            <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+        </div>
+
+        <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter hdpe">
+            <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+        </div>
+
+        <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter spray">
+            <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+        </div>
+
+        <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter sprinkle">
+            <img src="http://fakeimg.pl/365x365/" class="img-responsive">
+        </div>
+    </div>
+  </div>
+
+
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="../js/gallery.js"></script>
+</body>
+</html>

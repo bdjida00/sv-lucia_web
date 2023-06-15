@@ -6,12 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sv. Lucia-Boats&Caravans</title>
     <link rel="shortcut icon" type="image/png" href="pictures/favorit.png">
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
-    <link rel="stylesheet" href="css/navbar.css">
-    <link rel="stylesheet" href="css/carousel&btn.css">
-    <link rel="stylesheet" href="css/ad.css">
+    <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/navbar.css">
+    <link rel="stylesheet" href="../css/carousel&btn.css">
+    <link rel="stylesheet" href="../css/ad.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
   <!--TOPBAR-->
@@ -32,8 +36,8 @@
   <!--NAVBAR-->
   <nav class="navbar navbar-expand-sm navbar-light  sticky-top">
     
-    <span class="navbar-brand" href="#">
-      <img id="navbar_logo" src="img/Sv_Lucia__Logo.png" alt="">
+    <span class="navbar-brand" href="index.html">
+      <a href="index.html"><img id="navbar_logo" src="../img/Sv_Lucia__Logo.png" alt=""></a>
     </span>
     
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#inside-hamburger" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -80,201 +84,130 @@
     </div>
   </nav>
 
-  <!--CAROUSEL-->
-  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="img/carousel/brod1.jpg" class="w-100 img-fluid" id="carousel-img">
-        <div class="carousel-caption" >
-          <h2 >Solarna energija za održive domove</h5>
-          <p>Otkrijte prednosti solarnih elektrana za kućanstva i smanjite troškove energije dok doprinosite zaštiti okoliša.</p>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="img/carousel/camper.jpg" class=" w-100 img-fluid" id="carousel-img">
-        <div class="carousel-caption">
-          <h2 >Energetska nezavisnost za vašu kompaniju</h5>
-          <p>Naša rješenja solarnih elektrana pružaju sigurnost i dugoročne uštede za vašu kompaniju, osiguravajući energetsku nezavisnost i smanjenje emisija CO2.</p>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="img/carousel/brod1.jpg" class="d-block w-100" id="carousel-img">
-        <div class="carousel-caption">
-          <h2>Stručno projektiranje i ugradnja solarnih elektrana</h5>
-          <p>Sa našim iskusnim timom inženjera, osiguravamo vrhunsku kvalitetu i profesionalnost prilikom projektiranja i ugradnje solarnih elektrana za vaše potrebe.</p>
-        </div>
+  <!--SUHI_VEZ-->
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col">
+        <h2>Sigurno i pouzdano: Odaberite našu tvrtku za čuvanje brodova u suhom vezu preko zime</h2>
+        <p class="mt-3">Naša tvrtka pruža vrhunsku uslugu čuvanja brodova u suhom vezu tijekom zimskih mjeseci. 
+          Naša infrastruktura osigurava zaštitu vašeg broda od štetnih utjecaja vode, leda, soli i drugih nepovoljnih vremenskih uvjeta. 
+          Vaš brod će biti siguran od korozije, oštećenja i potencijalnih lomova, čime ćemo osigurati njegovu dugovječnost i očuvanje vrijednosti.
+        </p>
       </div>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
   </div>
-  
-  <!--BUTTONS_lg-->
-  <div class="d-none d-lg-block mt-4">
-    <div class="container mt-1">
-      <div class="row btn-container">
 
-        <div class="col-md-3 col-sm-6">
-          <div class="d-flex justify-content-center align-items-center h-100">         
-            <button class="main-btn"><i class="bi bi-shop"></i><p>Prodaja brodova i kamp prikolica</p></button>
-          </div>       
+  <div class="container mt-3">
+    <div class="card-deck mb-3 text-center">
+      <div class="card mb-4 box-shadow">
+        <div class="card-header">
+          <h4 class="my-0 font-weight-normal">Free</h4>
         </div>
-
-        <div class="col-md-3 col-sm-6">
-          <div class="d-flex justify-content-center align-items-center h-100">
-            <button class="main-btn"><i class="bi bi-house"></i><p>Suhi vez za brodove i zimsko čuvanje kamp prikolica</p>
-                      
-            </button>
-            
-          </div>
+        <div class="card-body">
+          <h1 class="card-title pricing-card-title">$0 <small class="text-muted">/ mo</small></h1>
+          <ul class="list-unstyled mt-3 mb-4">
+            <li>10 users included</li>
+            <li>2 GB of storage</li>
+            <li>Email support</li>
+            <li>Help center access</li>
+          </ul>
+          <button type="button" class="btn btn-lg btn-block btn-outline-primary">Sign up for free</button>
         </div>
-        
-        <div class="col-md-3 col-sm-6">
-          <div class="d-flex justify-content-center align-items-center h-100">
-            <button class="main-btn"><i class="bi bi-tools"></i><p>Održavanje brodova i servis</p></button>
-          </div>
+      </div>
+      <div class="card mb-4 box-shadow">
+        <div class="card-header">
+          <h4 class="my-0 font-weight-normal">Pro</h4>
         </div>
-
-        <div class="col-md-3 col-sm-6">
-          <div class="d-flex justify-content-center align-items-center h-100">
-            <a href="gallery.html">
-              <button class="main-btn"><i class="bi bi-images"></i><p>Galerija</p></button>
-            </a>
-          </div>
+        <div class="card-body">
+          <h1 class="card-title pricing-card-title">$15 <small class="text-muted">/ mo</small></h1>
+          <ul class="list-unstyled mt-3 mb-4">
+            <li>20 users included</li>
+            <li>10 GB of storage</li>
+            <li>Priority email support</li>
+            <li>Help center access</li>
+          </ul>
+          <button type="button" class="btn btn-lg btn-block btn-primary">Get started</button>
+        </div>
+      </div>
+      <div class="card mb-4 box-shadow">
+        <div class="card-header">
+          <h4 class="my-0 font-weight-normal">Enterprise</h4>
+        </div>
+        <div class="card-body">
+          <h1 class="card-title pricing-card-title">$29 <small class="text-muted">/ mo</small></h1>
+          <ul class="list-unstyled mt-3 mb-4">
+            <li>30 users included</li>
+            <li>15 GB of storage</li>
+            <li>Phone and email support</li>
+            <li>Help center access</li>
+          </ul>
+          <button type="button" class="btn btn-lg btn-block btn-primary">Contact us</button>
         </div>
       </div>
     </div>
   </div>
 
-  <!--BUTTONS_sm-->
-  <div class="d-block d-lg-none d-md-none mt-3">
-    <div class="row btn-container">
-      <div class="col-6" id="btn-col">
-        <div class="d-flex justify-content-center align-items-center h-100">         
-          <button class="main-btn"><i class="bi bi-shop"></i><p>Prodaja brodova i kamp prikolica</p></button>
-        </div>
-      </div>
-      <div class="col-6" id="btn-col">
-        <div class="d-flex justify-content-center align-items-center h-100">         
-          <button class="main-btn"><i class="bi bi-house"></i><p>Suhi vez za brodove i zimsko čuvanje kamp prikolica</p></button>          
-        </div>
-      </div>
-    
-      <!-- Force next columns to break to new line -->
-      <div class="w-100"></div>
-    
-      <div class="col-6" id="btn-col">
-        <div class="d-flex justify-content-center align-items-center h-100">         
-          <button class="main-btn"><i class="bi bi-tools"></i><p>Održavanje brodova i servis</p></button>
-        </div>
-
-      </div>
-      <div class="col-6" id="btn-col">
-        <div class="d-flex justify-content-center align-items-center h-100">         
-          <button class="main-btn"><i class="bi bi-images"></i><p>Galerija</p></button>
-        </div>
+  <!--ČUVANJE_KAMPERA-->
+  <div id="kamperi" class="container mt-5">
+    <div class="row">
+      <div class="col">
+        <h2>Bezbrižne zime za vašu kamp prikolicu: Odaberite našu tvrtku za sigurno čuvanje tijekom zimskih mjeseci</h2>
+        <p class="mt-3">Naša tvrtka nudi izvrsnu uslugu čuvanja kamp prikolica tijekom zime, pružajući vam mir uma i zaštitu vaše vrijedne imovine. 
+          Naši prostori za čuvanje osigurani su od nepovoljnih vremenskih uvjeta kao što su snijeg, led, kiša i vjetar, čime štitimo vašu kamp prikolicu od potencijalnih oštećenja i propadanja.
+        </p>
       </div>
     </div>
   </div>
 
-
-  
-  
-  
-  
-
-  <!--OGLASI-->
-  <div class="container mt-5 mb-5">
-    <h2 style="margin-bottom: 30px;">Oglasi</h2>
-    <div class="row">
-      <div class="col-12 col-lg-10">
-        <div class="card mb-3">
-          <div class="row g-0">
-            <div class="col-md-6">
-              <img src="img/ads/brod1.png"  id="ad-img" class="img-fluid" alt="Boat Image">
-            </div>
-            <div class="col-md-6">
-              <div class="card-body">
-                <h5 class="card-title">Boat Name</h5>
-                <p class="card-text">Boat description and additional information.</p>
-                <p class="card-text"><small class="text-muted">Price: $XX,XXX</small></p>
-                <a href="#" class="btn btn-primary">View Details</a>
-              </div>
-            </div>
-          </div>
+  <div class="container mt-3">
+    <div class="card-deck mb-3 text-center">
+      <div class="card mb-4 box-shadow">
+        <div class="card-header">
+          <h4 class="my-0 font-weight-normal">Free</h4>
+        </div>
+        <div class="card-body">
+          <h1 class="card-title pricing-card-title">$0 <small class="text-muted">/ mo</small></h1>
+          <ul class="list-unstyled mt-3 mb-4">
+            <li>10 users included</li>
+            <li>2 GB of storage</li>
+            <li>Email support</li>
+            <li>Help center access</li>
+          </ul>
+          <button type="button" class="btn btn-lg btn-block btn-outline-primary">Sign up for free</button>
         </div>
       </div>
-    </div>
-    <div class="row">
-      <div class="col-12 col-lg-10">
-        <div class="card mb-3">
-          <div class="row g-0">
-            <div class="col-md-6">
-              <img src="img/carousel/camper.jpg" id="ad-img" class="img-fluid" alt="Boat Image">
-            </div>
-            <div class="col-md-6">
-              <div class="card-body">
-                <h5 class="card-title">Boat Name</h5>
-                <p class="card-text">Boat description and additional information.</p>
-                <p class="card-text"><small class="text-muted">Price: $XX,XXX</small></p>
-                <a href="#" class="btn btn-primary">View Details</a>
-              </div>
-            </div>
-          </div>
+      <div class="card mb-4 box-shadow">
+        <div class="card-header">
+          <h4 class="my-0 font-weight-normal">Pro</h4>
+        </div>
+        <div class="card-body">
+          <h1 class="card-title pricing-card-title">$15 <small class="text-muted">/ mo</small></h1>
+          <ul class="list-unstyled mt-3 mb-4">
+            <li>20 users included</li>
+            <li>10 GB of storage</li>
+            <li>Priority email support</li>
+            <li>Help center access</li>
+          </ul>
+          <button type="button" class="btn btn-lg btn-block btn-primary">Get started</button>
         </div>
       </div>
-    </div>
-    <div class="row">
-      <div class="col-12 col-lg-6">
-        <div class="card mb-3">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img src="boat-image.jpg" class="img-fluid" alt="Boat Image">
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Boat Name</h5>
-                <p class="card-text">Boat description and additional information.</p>
-                <p class="card-text"><small class="text-muted">Price: $XX,XXX</small></p>
-                <a href="#" class="btn btn-primary">View Details</a>
-              </div>
-            </div>
-          </div>
+      <div class="card mb-4 box-shadow">
+        <div class="card-header">
+          <h4 class="my-0 font-weight-normal">Enterprise</h4>
         </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-12 col-lg-6">
-        <div class="card mb-3">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img src="boat-image.jpg" class="img-fluid" alt="Boat Image">
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Boat Name</h5>
-                <p class="card-text">Boat description and additional information.</p>
-                <p class="card-text"><small class="text-muted">Price: $XX,XXX</small></p>
-                <a href="#" class="btn btn-primary">View Details</a>
-              </div>
-            </div>
-          </div>
+        <div class="card-body">
+          <h1 class="card-title pricing-card-title">$29 <small class="text-muted">/ mo</small></h1>
+          <ul class="list-unstyled mt-3 mb-4">
+            <li>30 users included</li>
+            <li>15 GB of storage</li>
+            <li>Phone and email support</li>
+            <li>Help center access</li>
+          </ul>
+          <button type="button" class="btn btn-lg btn-block btn-primary">Contact us</button>
         </div>
       </div>
     </div>
   </div>
-
 
   <!-- Footer -->
   <footer class="bg-secondary text-white" id="kontakt">
@@ -288,8 +221,10 @@
           <div class="">
 
             <p>
-              Solar Engineering d.o.o je tvrtka specijalizirana za projektiranje, montažu i održavanje solarnih fotonaponskih sustava.
-              Prateći tržište i trendove, <br>nudimo najmodernija rješenja.
+              Sv. Lucia je tvrtka sa više od 20 godina iskustva u iznajmljivanju brodova i kamp prikolica, 
+              kao i pružanju usluga suhog veza za brodove i sigurnog zimskog čuvanja kampera. 
+              Naše dugogodišnje iskustvo jamči vrhunsku kvalitetu usluge i pažnju posvećenu detaljima, 
+              čineći nas pouzdanim partnerom za vaše potrebe.
             </p>
           </div>
         </div>
@@ -395,7 +330,7 @@
 
 
   
-  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  <script src="../../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
@@ -404,7 +339,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/validator/10.2.0/validator.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script src="js/buttons.js"></script>
+  <script src="../js/buttons.js"></script>
 
     
    
