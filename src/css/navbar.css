@@ -31,3 +31,8 @@
   width: 290px;
 }
 
+@media (max-width: 767px) {
+  #navbar_logo{
+    width: 230px;
+  }
+}
