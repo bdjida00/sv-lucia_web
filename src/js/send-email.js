@@ -10,7 +10,7 @@ $(document).ready(function() {
       // Send an AJAX request to the server
       $.ajax({
         type: 'POST',
-        url: 'php/send-email.php',
+        url: 'send-email.php',
         data: formData,
         success: function(response) {
           // Clear the form
