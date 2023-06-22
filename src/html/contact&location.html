@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sv. Lucia-Boats&Caravans</title>
+    <title>Kontakt</title>
+    <meta name="description" content="Obratite nam je na br. mob ili preko kontakt forme">
     <link rel="shortcut icon" type="image/png" href="../img/fav_logo.png">
     <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="../css/global.css">
@@ -49,7 +50,7 @@
         <ul class="navbar-nav ml-auto">
             
             <li class="nav-item">
-              <a class="nav-link" href="#" >Početna</a>
+              <a class="nav-link" href="index.html" >Početna</a>
             </li>
             
             <li class="nav-item dropdown">
@@ -59,10 +60,8 @@
               <div class="dropdown-menu">
                   <a class="dropdown-item" href="index.html#prodaja_link">Prodaja</a>
                   <a class="dropdown-item" href="drydock.html">Suhi vez za brodove</a>
-                  <a class="dropdown-item" href="drydock.html#kamperi">Zimsko čuvanje kamp prikolica</a>
-                  <a class="dropdown-item" href="drydock.html">Održavanje brodova i servis</a>
-                  
-              </div>
+                  <a class="dropdown-item" href="drydock.html">Zimsko čuvanje kamp prikolica</a>
+             </div>
               
             </li>
 
@@ -75,7 +74,7 @@
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="contact&location.html">Kontakt</a>
+                <a class="nav-link" href="#">Kontakt</a>
             </li>
             
             
@@ -93,21 +92,26 @@
       <div class="col-md-6 mt-5">
         
         <h1 class="text-center mb-4">Kontaktirajte nas</h1>
-        <h5 class="text-center mb-5">Postavite nam pitanje i naš tim će vam se obratiti u najkraćem mogućem roku.</h5>
+        <h5 class="text-center mb-3">Obratite nam se pozivom na broj mobitela: </h5>
+        <a href="tel:+385955824729"><h2 class="text-center mb-3">+385 95 5824 729</h2></a>
+        <h5 class="text-center mb-5">Ili ispunite kontakt formu sa upitom, te ćemo mi vas kontaktirati</h5>
         <form id="email-form">
           <div class="form-group">
             <label for="name">Ime i prezime:</label>
             <input type="text" class="form-control" id="name" name="name" required>
           </div>
           <div class="form-group">
-            <label for="email">Email:</label>
+            <label for="email">Email ili br. mob:</label>
             <input type="email" class="form-control" id="email" name="email" required>
+            <div id="passwordHelpBlock" class="form-text">
+              Unesite e-mail ili broj mobitela ovisno kako želite da vas kontaktiramo
+            </div>
           </div>
           <div class="form-group">
             <label for="message">Poruka:</label>
             <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
           </div>
-          <button type="submit" id="submit-btn" class="btn">Pošalji</button>
+          <button type="submit" id="submit-btn" class="btn btn-secondary">Pošalji</button>
         </form>
         <div id="status"></div>
       </div>
@@ -162,7 +166,7 @@
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
                 <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
               </svg>
-              Mob : +385 95 5824 729
+              Mob: <a href="tel:+385955824729" style="color: rgb(174, 175, 255);">+385 95 5824 729</a>
 
             </li>
             
